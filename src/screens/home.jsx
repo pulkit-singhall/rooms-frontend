@@ -1,9 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import NavBar from "../components/nav";
 
 function Home() {
     return (
         <>
-            <h1 className="text-red-500">home</h1>
+            <NavBar/>
+            <div className="flex flex-col h-screen w-screen items-center justify-center">
+                
+            </div>
         </>
     );
 }
